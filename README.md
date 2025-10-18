@@ -13,4 +13,4 @@ cmake .. -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_BUILD_TYPE=Debug
 make
 sudo make install # or sudo ninja install
 ```
-After that, restart your fcitx5. Then go to "Configure" page. You should see the dvorak-qwerty input method now becomes available. Add that to your current input method to start using it.
+After that, restart your fcitx5. Then go to "Configure" page. You should see the dvorak-qwerty input method now becomes available. Add that to your current input method to start using it. Make sure your default system keyboard layout is Qwerty (English - US).
